@@ -17,7 +17,7 @@ embed {text-align:center;margin-left:75px;}
 h1#body_content_title {display:none;}
 
 /* begin nav */
-header {position:fixed; top:0px; background-color: #fff; width: 960px; 
+header {position:fixed; top:0; left:50%; margin-left: -480px; background-color: #fff; width: 960px; 
   text-decoration: none; -webkit-box-shadow: 0 10px 6px -6px black; -moz-box-shadow: 0 10px 6px -6px black; 
 box-shadow: 0 10px 6px -6px black; overflow:hidden; z-index:10;}
 #rectangle { float:left; height:80px; border-left: solid black 10px;}
