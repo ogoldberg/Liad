@@ -5,11 +5,8 @@
 }
 #site_bar_content {
   height:47px;
-  position: fixed;
-  left:135px;
-  top:-15px;
-  margin: 0px auto 10px auto;
-  text-align: left;
+  position:absolute; top:-15px; left:50%; margin-left: -480px;
+  text-align: center;
   width: 950px;
   z-index: 100;
 }
