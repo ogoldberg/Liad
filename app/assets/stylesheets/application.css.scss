@@ -1,0 +1,62 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color: #b3b3b3;
+  text-align: left; vertical-align: top; letter-spacing: 0px; text-decoration: none; background-color: white;
+  background-repeat:no-repeat; background-size:100%; background-image:url(''); background-attachment:fixed;
+  width: 960px; }
+#page_container {margin-left:180px;}
+strong { color: #231f20; font-weight:normal;}
+h1, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
+  color: #4d4d4e; font-weight: normal;}
+h2, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
+  color: #231f20; font-weight: normal;}
+h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
+  margin-left:420px; width:360px;font-weight:normal;margin-top:15px;}
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
+  margin-left:240px; width:180px;font-weight:normal;float:left;}
+embed {text-align:center;margin-left:75px;}
+
+h1#body_content_title {display:none;}
+
+/* begin nav */
+header {position:fixed; top:0px; background-color: #fff; width: 960px; 
+  text-decoration: none; -webkit-box-shadow: 0 10px 6px -6px black; -moz-box-shadow: 0 10px 6px -6px black; 
+box-shadow: 0 10px 6px -6px black; overflow:hidden; z-index:10;}
+#rectangle { float:left; height:80px; border-left: solid black 10px;}
+.divider {float:left; height:80px; border-left:solid #b3b3b3 1px; }
+.linkset {margin:0;}
+.titlelink { color: #b3b3b3;padding-bottom:10px; margin-top:-3px;}
+#title {width:229px; height:80px; float:left;margin-top:-3px;}
+#design {width: 179px;height:80px; float:left;}
+#direction {width: 359px;height:80px;float:left; }
+#about {width: 179px;height:100px;float:left;overflow: visible;margin:0; padding:0;}
+ul {list-style: none; height:80px; padding-left:10px;padding-top:0;margin-top:0;}
+li a, li a:visited { text-decoration: none; color:#4d4d4e;}
+li a:hover { color:#ed2079;}
+li.selected a { color: #ed2079;}
+#menucontainer {margin-top:20px; width: 780px;}
+#body_content, #side_body_content { float: left; width: 960px; background: white; color: #333; 
+  padding: 240px 0px 120px 0px; padding-top: 220px;}
+li#copyright {vertical-align:bottom; position:absolute;left:20px; top:87px;}
+li#contact {vertical-align:bottom; position:absolute;left:788px; top:87px;}
+/*end nav */
+
+
+/*begin info page */
+#info {margin-top:120px; color: #7E7E7E;}
+#info-column-one { width: 420px; height:840px; float:left}
+#info-column-two {width: 190px; margin-right:3px; float:left;}
+#info-column-three {width:180px;float:left;}
+.clearfloat {clear:float;}
+#contact {height: 240px;width:240px;}
+#approach {width:240px;}
+#services {width:180px;}
+#clients {margin-top:5px;} 
+#emaillink a, #emaillink a:hover, #emaillink a:visited {color:#ed2079;}
+#linkedin a, #linkedin a:hover, #linkedin a:visited {color: #4C6AB2;}
+#twitter a, #twitter a:hover, #twitter a:visited {color: #75D4DA;}
+address {font-style:normal;}
+/*end info page */
+
+
+
+
+

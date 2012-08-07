@@ -1,0 +1,96 @@
+@mixin rounded($radius) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+#site_bar_content {
+  height:47px;
+  position: fixed;
+  left:135px;
+  top:-15px;
+  margin: 0px auto 10px auto;
+  text-align: left;
+  width: 950px;
+  z-index: 100;
+}
+#site_bar {
+  border-bottom: 0px none;
+  z-index: 100;
+}
+a#site_bar_refinery_cms_logo {
+  left: 448px;
+}
+#site_bar, #site_bar * {
+  color: black;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  z-index: 100;
+}
+#editor_switch, #site_bar_branding, a#site_bar_refinery_cms_logo { position: absolute; }
+#editor_switch {
+  left: 0px;
+  a, a:hover {
+    background-color: #fca87f;
+    color:white;
+    border-bottom: 0px none;
+    margin-top: 0;
+    padding: 0px 14px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  span {
+    border: 1px solid #0280c7;
+    height: 26px;
+    line-height: 20px;
+    margin-top: 9px;
+    display: block;
+    cursor: pointer;
+  }
+  a, span {
+    @include rounded(6px);
+  }
+}
+#site_bar {
+  height: 47px;
+  padding: 0px;
+  z-index: 100;
+  * {
+    line-height: 47px;
+  }
+  a {
+    text-decoration: none;
+  }
+  #site_bar_branding {
+    right: 0px;
+    a {
+      font-weight: normal;
+      &#logout {
+        margin-left: 12px;
+      }
+    }
+  }
+  #site_bar_company_name {
+    font-weight: bold;
+  }
+}
+a#site_bar_refinery_cms_logo {
+  left: 44.5%;
+  border-bottom: none;
+  line-height: 29px;
+  height: 29px;
+  margin-top: 9px;
+  overflow: hidden;
+  &:hover {
+    border-bottom: none;
+    opacity: 1;
+    img {
+      margin-top: -29px;
+    }
+  }
+}
+.ie7 #site_bar #editor_switch a {
+  height: 26px;
+  line-height: 26px;
+}
