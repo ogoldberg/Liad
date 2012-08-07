@@ -26,11 +26,11 @@ Refinery::Images.configure do |config|
 
   # Configure S3 (you can also use ENV for this)
   # The s3_backend setting by default defers to the core setting for this but can be set just for images.
-   config.s3_backend = Refinery::Core.s3_backend
-   config.s3_bucket_name = ENV['S3_BUCKET']
-   config.s3_access_key_id = ENV['S3_KEY']
-   config.s3_secret_access_key = ENV['S3_SECRET']
-   config.s3_region = ENV['S3_REGION]
+  # config.s3_backend = Refinery::Core.s3_backend
+  # config.s3_bucket_name = ENV['S3_BUCKET']
+  # config.s3_access_key_id = ENV['S3_KEY']
+  # config.s3_secret_access_key = ENV['S3_SECRET']
+  # config.s3_region = ENV['S3_REGION]
 
   # Configure Dragonfly
   # This is where in the middleware stack to insert the Dragonfly middleware
@@ -39,6 +39,6 @@ Refinery::Images.configure do |config|
   # If you decide to trust file extensions replace :ext below with :format
   # config.dragonfly_url_format = "/system/images/:job/:basename.:ext"
   # config.datastore_root_path = "/home/oren/src/rails_projects/liad/public/system/refinery/images"
-  # config.trust_file_extensions = false
+  # config.trust_file_extensions = false 
 
 end
