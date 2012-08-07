@@ -20,7 +20,7 @@ h1#body_content_title {display:none;}
 /* begin nav */
 header {position:fixed; top:0; left:50%; margin-left: -480px; background-color: #fff; width: 960px; 
   text-decoration: none; -webkit-box-shadow: 0 10px 6px -6px black; -moz-box-shadow: 0 10px 6px -6px black; 
-box-shadow: 0 10px 6px -6px black; overflow:hidden; z-index:10;}
+box-shadow: 0 10px 6px -6px black; overflow:hidden; z-index:10;line-height: 15px; word-spacing:0; }
 #rectangle { float:left; height:80px; border-left: solid black 10px;}
 .divider {float:left; height:80px; border-left:solid #b3b3b3 1px; }
 .linkset {margin:0;}
