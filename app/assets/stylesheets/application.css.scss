@@ -5,17 +5,17 @@ body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word
 #page_container {position:absolute; top:0; left:50%; margin-left: -480px;}
 img { display: block; margin-left: auto; margin-right: auto }
 strong { color: #231f20; font-weight:normal;}
-h1, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
-  color: #4d4d4e; font-weight: normal;}
-h2, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
-  color: #231f20; font-weight: normal;}
-h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
-  margin-left:420px; width:360px;font-weight:normal;margin-top:15px;}
-h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
   margin-left:240px; width:180px;font-weight:normal;float:left;}
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; word-spacing: 0mm; color:#b3b3b3;
+  margin-left:420px; width:360px;font-weight:normal;margin-top:15px;}
+h3, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
+  color: #4d4d4e; font-weight: normal;}
+h4, a, a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; font-size: 11px; 
+  color: #231f20; font-weight: normal;}
 embed {text-align:center;margin-left:75px;}
 
-h1#body_content_title {display:none;}
+h3#body_content_title {display:none;}
 
 /* begin nav */
 header {position:fixed; top:0; left:50%; margin-left: -480px; background-color: #fff; width: 960px; 
